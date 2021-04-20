@@ -1,0 +1,24 @@
+.sample-color-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.sample-color-row img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.sample-color-row h2 {
+    text-align: center;
+    color: #000;
+    margin: 15px 0;
+}
+.sample-color-card {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+@media only screen and (max-width: 768px) {
+    .sample-color-row {
+        grid-template-columns: 1fr;
+    }
+}

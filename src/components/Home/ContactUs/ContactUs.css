@@ -1,0 +1,82 @@
+.contact-row {
+    display: grid;
+    grid-template-columns: 4fr 1fr 7fr;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.visiting-hour {
+    /* background: #106d49; */
+    background: #1e1e20;
+    color: #fff;
+    padding: 10px;
+}
+.visiting-hour p {
+    color: #fac7c7;
+}
+.day-group {
+    margin: 10px 0;
+}
+.day-group small {
+    color: #d7d7d7;
+}
+
+/* from  */
+.tag-line {
+    line-height: 1.2;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+form {
+    margin: 0;
+    width: 100%;
+}
+.form-group,
+input,
+label {
+    width: 100%;
+    display: block;
+}
+.form-group {
+    margin: 10px 0;
+}
+input,
+select {
+    padding: 8px 10px;
+    font-size: 18px;
+    outline: none;
+    background: none;
+    border: 1px solid #555;
+}
+label {
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 1px;
+}
+textarea {
+    resize: vertical;
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid #555;
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    .contact-row {
+        grid-template-columns: 1fr;
+    }
+    .visiting-hour {
+        text-align: center;
+    }
+    .day-group {
+        border: 1px solid #fff;
+        padding: 5px;
+        margin: 0;
+    }
+    .day-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+}

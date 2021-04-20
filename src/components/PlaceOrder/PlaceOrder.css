@@ -1,0 +1,6 @@
+.order-image-container {
+    max-width: 400px;
+}
+.order-image-container img {
+    width: 100%;
+}

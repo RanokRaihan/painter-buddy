@@ -1,0 +1,10 @@
+.review-form-container {
+    max-width: 600px;
+}
+.review-form-container input,
+.review-form-container select {
+    margin: 15px 0;
+}
+select {
+    width: 100%;
+}

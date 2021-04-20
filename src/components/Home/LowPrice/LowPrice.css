@@ -1,0 +1,40 @@
+.low-price-wrapper {
+    width: 100%;
+    background-image: linear-gradient(#fff, #9acdfe);
+}
+.low-price-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    overflow: hidden;
+}
+.low-price-text h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.low-price-text h2 {
+    font-size: 30px;
+    line-height: 1.6;
+}
+.low-price-text p {
+    margin: 15px 0;
+}
+.low-price-text button {
+    margin: 15px 0;
+}
+
+.low-price-image {
+    text-align: right;
+    transform: translateY(20px);
+}
+
+@media only screen and (max-width: 768px) {
+    .low-price-row {
+        grid-template-columns: 1fr;
+    }
+    .low-price-image {
+        text-align: center;
+    }
+}

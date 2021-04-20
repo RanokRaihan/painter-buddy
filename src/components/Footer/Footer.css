@@ -1,0 +1,42 @@
+.footer-wrapper {
+    background: #1e1e20;
+    padding-top: 30px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.footer-row {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr 3fr;
+    grid-gap: 20px;
+}
+.footer-content {
+    color: #fff;
+    line-height: 1.2;
+}
+.footer-row input {
+    padding: 8px 10px;
+    outline: none;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 80%;
+    font-size: 18px;
+}
+.btn-social {
+    margin: 5px;
+}
+
+.copy-rights {
+    color: #fff;
+    text-align: center;
+    background: #2d2d30;
+    margin: 0;
+    width: 100%;
+    padding: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-row {
+        grid-template-columns: 1fr;
+    }
+}

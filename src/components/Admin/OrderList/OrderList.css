@@ -1,0 +1,39 @@
+table,
+tr {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 18px;
+}
+
+thead tr {
+    background: #e7e7e7;
+    text-align: left;
+}
+th,
+td {
+    border: none;
+    margin: 0;
+    padding: 12px 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+.status-select {
+    border: none;
+    width: fit-content;
+}
+.refresh-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .table-content {
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+}

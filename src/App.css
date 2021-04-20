@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container-md {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+p {
+    line-height: 1.6;
+    margin: 15px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* text-align */
+.text-bold {
+    font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-left {
+    text-align: left;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-center {
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.text-right {
+    text-align: right;
 }
+/* text color  */
+.text-title {
+    color: #ff3700;
+}
+.text-title-secondary {
+    color: #075c42;
+}
+.text-secondary {
+    color: #6b6b6b;
+}
+/* buttons */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+    background: none;
+    padding: 8px 12px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+.btn-primary {
+    border: 2px solid #ff3700;
+    color: #ff3700;
+    transition: all 0.2s;
+}
+.btn-primary:hover {
+    background: #ff3700;
+    color: #fff;
+}
+.btn-info {
+    border: 2px solid #69d2b3;
+    color: #69d2b3;
+    transition: all 0.2s;
+}
+.btn-info:hover {
+    background: #69d2b3;
+    color: #fff;
+}
+.btn-highlight {
+    border: 2px solid #f48f00;
+    color: #f48f00;
+    transition: all 0.2s;
+}
+.btn-highlight:hover {
+    background: #f48f00;
+    color: #fff;
+}
+.btn-center {
+    display: block;
+    margin: auto;
+}
+.disabled {
+    background: #e7e7e7;
+    cursor: not-allowed;
+}
+/* spinner*/
+
+.spinner {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+/* //margins */
+.my-5 {
+    margin: 20px 0;
 }

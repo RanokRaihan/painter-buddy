@@ -1,0 +1,40 @@
+.showcase-wrapper {
+    width: 100%;
+    background-image: linear-gradient(#fff, #9acdfe);
+}
+.showcase-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    overflow: hidden;
+}
+.showcase-text h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.showcase-text h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.showcase-text p {
+    margin: 15px 0;
+}
+.showcase-text button {
+    margin: 15px 0;
+}
+
+.showcase-image {
+    text-align: right;
+    transform: translateY(20px);
+}
+
+@media only screen and (max-width: 768px) {
+    .showcase-row {
+        grid-template-columns: 1fr;
+    }
+    .showcase-image {
+        text-align: center;
+    }
+}

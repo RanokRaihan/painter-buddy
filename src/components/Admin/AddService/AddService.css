@@ -1,0 +1,6 @@
+.add-service-container {
+    max-width: 600px;
+}
+input[type="file"] {
+    border: none;
+}

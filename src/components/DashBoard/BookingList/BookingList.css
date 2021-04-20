@@ -1,0 +1,18 @@
+.booking-list-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.booking-list h1 {
+    margin: 20px 0;
+}
+@media only screen and (max-width: 992px) {
+    .booking-list-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .booking-list-row {
+        grid-template-columns: 1fr;
+    }
+}
