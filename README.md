@@ -10,7 +10,7 @@ author: [Ranok Raihan](https://web.facebook.com/ranok.raihan.18/)
 
 ### `Website Description`
 
-Hi. welcome to my website, Painter Buddy. we provide the best quality of painting to your room, house, furniture etc.
+Hi. welcome to my website, Painter Buddy, your painting solution. we provide the best quality of painting to your room, house, furniture etc.
 
 ### `Website Feature`
 
